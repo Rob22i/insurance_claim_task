@@ -1,0 +1,145 @@
+{
+  "numerical_features": [
+    {
+      "name": "age",
+      "description": "Customer's age"
+    },
+    {
+      "name": "policy_holder_income",
+      "description": "Customer's annual income"
+    },
+    {
+      "name": "household_income",
+      "description": "Stated Household annual income"
+    },
+    {
+      "name": "credit_score",
+      "description": "Customer's credit score from 300 to 850"
+    },
+    {
+      "name": "num_dependents",
+      "description": "Number of children or elderly relatives"
+    },
+    {
+      "name": "income_per_family_member",
+      "description": "Household annual income per family member"
+    },
+    {
+      "name": "num_cars_owned",
+      "description": "Number of cars owned by the customer"
+    },
+    {
+      "name": "home_value",
+      "description": "Purchase price of the customer's home"
+    },
+    {
+      "name": "mortgage_balance",
+      "description": "Current mortgage balance"
+    },
+    {
+      "name": "avg_annual_loan_payment",
+      "description": "Customer's average annual payment for loans and credit cards"
+    },
+    {
+      "name": "debt_to_income_ratio",
+      "description": "Customer's total debt-to-income ratio"
+    },
+    {
+      "name": "credit_utilization_ratio",
+      "description": "Customer's credit utilization ratio"
+    },
+    {
+      "name": "years_with_credit_card_issuer",
+      "description": "Number of years the customer has had their current credit card issuer"
+    },
+    {
+      "name": "avg_monthly_phone_bill",
+      "description": "Customer's average monthly phone bill"
+    },
+    {
+      "name": "annual_medical_expenses",
+      "description": "Customer's annual medical expenses"
+    },
+    {
+      "name": "total_life_insurance_coverage",
+      "description": "Customer's total life insurance coverage"
+    },
+    {
+      "name": "average_commute_time",
+      "description": "Customer's average time (minutes) it takes them to travel from home to their place of employment"
+    },
+    {
+      "name": "height",
+      "description": "Customer's height in cm"
+    },
+    {
+      "name": "weight",
+      "description": "Customer's weight in pounds (lbs)"
+    },
+    {
+      "name": "years_of_home_ownership",
+      "description": "Number of years the customer has owned their home"
+    }
+    
+  ],
+  "categorical_features": [
+    {
+      "name": "gender",
+      "description": "Customer's gender (male/female)"
+    },
+    {
+      "name": "marital_status",
+      "description": "Customer's marital status (single, married)"
+    },
+    {
+      "name": "education_level",
+      "description": "Customer's education level (high school, some college, bachelor's degree, graduate degree)"
+    },
+    {
+      "name": "occupation",
+      "description": "Customer's occupation (job type or industry)"
+    },
+    {
+      "name": "household_income_source",
+      "description": "Customer's household income source (self-employed, employed by others)"
+    },
+    {
+      "name": "remote_worker_status",
+      "description": "(Onsite, Remote, Hybrid) If the customer primarily works from home or onsite for their employment"
+    },
+    {
+      "name": "presence_of_pre_existing_condition",
+      "description": "Yes/No if the customer has a pre-existing medical condition"
+    },
+    {
+      "name": "home_ownership_status",
+      "description": "Customer's home ownership status (owned, rented, currently owning with a mortgage)"
+    }
+  ],
+  "ordinal_features": [
+    {
+      "name": "health_status",
+      "description": "Customer's health status (excellent, good, fair, poor)"
+    },
+    {
+      "name": "driving_record",
+      "description": "Customer's driving record (single accident, multiple accidents, DUI conviction)"
+    },
+    {
+      "name": "credit_history_length",
+      "description": "Length of customer's credit history (less than 2 years, 2-5 years, more than 5 years)"
+    }
+  ],
+  "geographic_features": [
+    {
+      "name": "postal_code",
+      "description": "Customer's zip code or postal code"
+    }
+  ],
+  "behavioral_features": [
+    {
+      "name": "risks_covered",
+      "description": "Types of risks covered by the customer's insurance policies (e.g., life, health, auto)"
+    }
+  ]
+}
